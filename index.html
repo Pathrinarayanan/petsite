@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AdoptMe!</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Home page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="homepage.css">
+        <style>
+            .mySlides {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header class="header">
+        <nav>
+            <a href=""> About Us </a>
+            <a href="blog.html"> Blog </a>
+            <a href="rehome.html"> Rehome your Pet </a>
+            <a href="adoptpet.html"> Adopt a Pet </a>
+            <a href="index.html"> Home </a> </nav>
+
+    </header>
+
+        <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_LlUtxzfoR_L28kTjGXmSAlkFTgYJZVFFdw&usqp=CAU" style="width:100%">
+            <img class="mySlides" src="https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2020/04/LMC_5392-dog-high-five-650x428.jpg" style="width:100%">
+            <img class="mySlides" src="https://images.ctfassets.net/440y9b545yd9/144ynQJFHm4tTX6Muwbil8/b12fca1e55b0cc801ff4cd46c410fa7f/PetAdoptionTips850.jpg" style="width:100%">
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000); 
+            }
+        </script>
+
+    </body>
+
+    </html>
+
+    
+    <div class="head">
+        <div class="head-text">Welcome to<br>AdoptMe!</div>
+    </div>
+    <!-- End your code here -->
+</body>
+  <div class="card">
+<h3>Our website is designed to help you find your pet a new home or adopt a homeless pet.</h3>
+  </div>
+  <footer>
+    <h6 style="padding-right:10px;padding-top:10px;">Contact Us:</h6>
+    <h6 style="padding-right:10px;"><a href="">adoptme@gmail.com</a></h6>
+    <h6 style="padding-right:10px;"><a href="">9150910577</a></h6>
+    
+  </footer>
+</html>
+
+
+
+
+
+<!-- End your code here -->
+
+
+</html>
